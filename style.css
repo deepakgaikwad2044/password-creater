@@ -1,0 +1,178 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size:62.5%;
+    user-select: none;
+}
+
+main{
+    min-height:100vh;
+    background: rgba(0,0,0,.2);
+    display: grid;
+    place-items:center
+}
+
+
+
+.wrapper{
+    width:30rem;
+    padding:2rem;
+    background:#f9f9f9; 
+    
+    border-radius:.7rem;
+}
+
+.wrapper header {
+    padding:.5rem .3rem ;
+    margin-bottom:2rem;
+}
+
+.wrapper header h3{
+    font-size:1.8rem;
+    text-transform: capitalize;
+     font-weight:400;
+color:#ad1fad ;
+   
+}
+
+.passbox{
+    margin-bottom:1rem;
+}
+  
+.form{
+    padding:1rem;
+    
+}
+.form input{
+    width:100%;
+    padding:1rem 2rem;
+    border-radius:.5rem;
+    border:none;
+    outline:none;
+    background:#713dc1; /*
+    background:#a786d8 ;
+    /*background: #956ed0;*/
+    background:#bd4cbd; 
+  font-size: 1.5rem;
+  font-weight:600;
+    color:#fff;
+}
+
+  
+  
+  /*
+.passbox div{
+
+    flex-basis:70%;
+    height:7vh;
+    background: #bd4cbd; 
+    border-top-left-radius:.6rem;
+    border-bottom-left-radius:.6rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.passbox h3{
+    font-size:1.3rem;
+    text-align: left;
+    
+}
+
+.passbox article{
+    flex-basis:20%;
+    background:#f3f3f3;
+    height:7vh;
+    display:flex;
+    justify-content:center;
+}
+
+.passbox article button{
+    padding:1rem;
+    border-top-right-radius:.6rem;
+    border-bottom-right-radius:.6rem;
+    border:none;
+    outline:none;
+    background:#f9f9f4;
+    border: 1px solid #333;
+    color:#333;
+    
+}
+
+.passbox article button:active{
+    transform: scale(.93);
+}
+
+*/
+
+.passwordreq{
+    padding:1rem;
+    
+}
+
+.detail{
+    padding:1rem;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+
+
+.detail label{
+    width:100vw;
+    font-size:1.3rem;
+     letter-spacing: .1rem;
+    color:#bd4cbd;
+    text-transform:capitalize;
+    font-weight:300;
+}
+
+.detail input[type="checkbox"]{
+   width:5rem;
+   height:1.7rem;
+    accent-color:#b535b5; 
+}
+
+.pass{
+    margin-bottom:.6rem!important;
+}
+
+#passlength{
+    width:50%;
+   background: #f9f9f9;
+    border:1px solid #bd4cbd; 
+   
+    color:#393939;
+    font-weight: bold;
+   
+}
+
+.detail .btn{
+    margin-top:1rem;
+    width:100%;
+    padding:.8rem .2rem;
+    outline:none;
+    border:none;
+    color:#ad1fad;
+   
+  border: 1px solid #d68fd6;
+  
+    border-radius:.6rem;
+    text-transform: uppercase;
+}
+
+.btn:active{
+    transform:scale(.88);
+}
+
